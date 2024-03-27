@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean class="com.example.spring.Proj5Spring.Car" id="cr" autowire="byName">
+</bean>
+
+<bean class="com.example.spring.Proj5Spring.Engine" id="eng1">
+<property name="eng_no" value="123"></property>
+<property name="eng_type" value="Petrol"></property>
+</bean>
+
+
+
+</beans>

@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean class="com.example.spring.Proj3Spring.Company" id="cmp">
+<property name="e" ref="emp2"></property>
+</bean>
+<bean class="com.example.spring.Proj3Spring.Employee" id="emp1">
+<property name="empId" value="12"></property>
+<property name="empName" value="navya"></property>
+<property name="empSalary" value="3426"></property>
+</bean>
+<bean class="com.example.spring.Proj3Spring.Employee" id="emp2">
+<property name="empId" value="13"></property>
+<property name="empName" value="muk"></property>
+<property name="empSalary" value="3427"></property>
+</bean>
+</beans>

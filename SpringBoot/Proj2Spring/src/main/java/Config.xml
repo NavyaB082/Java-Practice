@@ -1,0 +1,21 @@
+<!-- SetterInjection and constructor Injection-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean class="com.example.spring.Proj2Spring.Laptop" id="lt">
+<property name="srNo" value="1213"></property>
+<property name="brand" value="Hp"></property>
+<property name="cost" value="9876.54F"></property>
+</bean>
+
+<bean class="com.example.spring.Proj2Spring.Laptop" id="lt1">
+
+<constructor-arg value="1243"></constructor-arg>
+<constructor-arg value="DEL"></constructor-arg>
+<constructor-arg value="678.43"></constructor-arg>
+
+</bean>
+</beans>
